@@ -2,7 +2,8 @@ FROM debian:buster-slim
 
 RUN apt-get update
 RUN apt-get -y upgrade
-RUN apt-get install --no-install-suggests -y ca-certificates php7.3-fpm php7.3-common php7.3-mysql php7.3-zip php7.3-gd php7.3-mbstring php-imagick imagemagick
+RUN apt-get install --no-install-suggests -y ca-certificates php7.3-fpm php7.3-common php7.3-mysql php7.3-zip php7.3-gd \ 
+    php7.3-mbstring php7.3-xml php-imagick imagemagick
 
 RUN echo "[www]" > /etc/php/7.3/fpm/pool.d/www.conf \
     && echo "user = www-data" >> /etc/php/7.3/fpm/pool.d/www.conf \
