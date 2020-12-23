@@ -6,6 +6,6 @@ Based on [Debian](https://hub.docker.com/_/debian) Buster Docker image [debian:b
 Can be used with the Docker image [mdoerges/debian-buster-nginx](https://hub.docker.com/r/mdoerges/debian-buster-nginx)
 
 ## Can be used with
-[Lychee](https://github.com/LycheeOrg/Lychee/)
+[Lychee](https://github.com/LycheeOrg/Lychee/) (only up to version 4.0.8 / 4.0.9 needs at least PHP 7.4)
 
 [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
